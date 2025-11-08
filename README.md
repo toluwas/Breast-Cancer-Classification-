@@ -14,7 +14,7 @@ Normalize and encode features for compatibility with machine learning algorithms
 
 Explore correlations among clinical and molecular features.
 
-Prepare the dataset for training classification models (e.g., Logistic Regression, Random Forest, ANN).
+Prepare the dataset for training classification models (e.g., Logistic Regression, Random Forest, ANN, Decision tree, KNN, XGboost, Naive Bayes, SVM).
 
 🧠 Dataset Information
 
@@ -40,7 +40,11 @@ Label encoding and one-hot encoding for categorical data
 
 Outlier detection using statistical thresholds
 
-Train-test split for model evaluation readiness
+Train-Validation-test split for model evaluation readiness
+
+K - Fold cross validation where K = 5 FOLDS
+
+SMOTE (Synthetic Minority Oversampling Technigue) was introdued to oversampled the minority class label of the dataset to balance the dataset for training to avoid bias and overfitting
 
 🧰 Technologies Used
 
